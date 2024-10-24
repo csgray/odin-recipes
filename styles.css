@@ -1,0 +1,47 @@
+body {
+  background-color: cornflowerblue;
+  font-family: "Fira Sans", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: white;
+}
+
+a {
+  text-decoration: underline double;
+}
+
+a:link {
+  text-decoration-color: green;
+}
+
+a:visited {
+  text-decoration-color: rebeccapurple;
+}
+
+ul li {
+  list-style-type: square;
+}
+
+ol li {
+  list-style-type: upper-roman;
+}
+
+.note {
+  background-color: lightgreen;
+  color: black;
+}
+
+.page-title {
+  color: blueviolet;
+  font-weight: 600;
+}
+
+.section-header {
+  color: blueviolet;
+  font-weight: 600;
+}
+
+.warning {
+  background-color: yellow;
+  color: black;
+  text-transform: uppercase;
+}
