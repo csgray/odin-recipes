@@ -32,18 +32,18 @@ a {
   text-decoration: underline double;
 }
 
-a:link {
-  text-decoration-color: green;
-}
-
 a:visited {
   text-decoration-color: rebeccapurple;
 }
 
 ul,
 ol {
-  list-style-position: inside;
   margin: 3px;
+}
+
+ul li,
+ol li {
+  margin-left: 21px;
 }
 
 ul li {
@@ -64,16 +64,18 @@ p {
 }
 
 /* Organization Classes */
-.page-title {
+.page-title,
+.section-header {
   color: rebeccapurple;
   font-weight: 600;
+}
+
+.page-title {
   margin: 6px;
 }
 
 .section-header {
-  color: rebeccapurple;
-  font-weight: 600;
-  margin: 3px;
+  margin: 9px 3px 3px;
 }
 
 .introduction,
